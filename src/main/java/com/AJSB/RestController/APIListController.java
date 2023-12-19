@@ -16,7 +16,7 @@ import com.AJSB.Model.APIList;
 import com.AJSB.Service.APIListImpl;
 
 @RestController
-@RequestMapping("/ajsb")
+@RequestMapping("/ajsb/v1")
 public class APIListController {
 	
 	@Autowired
